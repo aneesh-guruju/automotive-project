@@ -1,6 +1,20 @@
-.me {
-  border-radius: 50%;
-}
 body {
   background-color: black;
+}
+.text-1 {
+  font-style: italic;
+  color: #d6d6d6;
+}
+.nav-link {
+  color: #d6d6d6;
+}
+.active-nav {
+  background-color: #3a4a5a;
+  color: #d6d6d6;
+  border-radius: 8px;
+}
+.logo-icon {
+  width: 32px;
+  height: 32px;
+  object-fit: contain;
 }
