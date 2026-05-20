@@ -14,41 +14,51 @@
   </head>
   <body>
     <!-- Navbar -->
-    <div class="container">
-      <header
-        class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom"
-      >
-        <a
-          href="index.html"
-          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
-        >
-          <img
-            src="assets/piston.png"
-            alt="Automotive Logo"
-            class="logo-icon me-2"
-          />
-          <span class="fs-4 text-1">My Automotive Project</span>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-3">
+      <div class="container-fluid">
+        <a class="navbar-brand d-flex align-items-center" href="index.html">
+          <img src="assets/piston.png" alt="Logo" class="logo-icon me-2" />
+
+          <span class="fw-bold">My Automotive Project</span>
         </a>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a href="index.html" class="nav-link">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="about.html" class="nav-link active-nav" aria-current="page"
-              >About</a
-            >
-          </li>
-          <li class="nav-item">
-            <a href="fundamentals.html" class="nav-link">Fundamentals</a>
-          </li>
-          <li class="nav-item">
-            <a href="case-study.html" class="nav-link">Case-Study</a>
-          </li>
-          <li class="nav-item">
-            <a href="contact.html" class="nav-link">Contact</a>
-          </li>
-        </ul>
-      </header>
-    </div>
+
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link active-nav" href="about.html">About</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="fundamentals.html"> Fundamentals </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="case-study.html"> Case Study </a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
