@@ -43,3 +43,18 @@ body {
 .img-1 {
   border-radius: 20px;
 }
+.workshop-list li {
+  margin-bottom: 14px;
+  line-height: 1.7;
+}
+.learning-card {
+  background-color: #1b1f24;
+  border: 1px solid #2a2f36;
+  border-radius: 20px;
+  transition: 0.3s ease;
+}
+
+.learning-card:hover {
+  transform: translateY(-5px);
+  border-color: #3b4450;
+}
