@@ -59,7 +59,84 @@
         </div>
       </div>
     </nav>
+    <!-- Contact form -->
+    <div class="container col-xxl-8 px-4 py-5">
+      <div class="row justify-content-center">
+        <div class="col-lg-8">
+          <!-- Heading -->
+
+          <div class="text-center mb-5">
+            <p class="text-uppercase text-secondary fw-semibold">Contact</p>
+
+            <h1 class="display-5 fw-bold text-2 mb-3">Get In Touch</h1>
+
+            <p class="lead p-text">
+              Feel free to reach out regarding automotive discussions, feedback,
+              or even if you just want to connect!
+            </p>
+          </div>
+
+          <!-- Form -->
+
+          <form id="contactForm" class="contact-form">
+            <!-- Name -->
+
+            <div class="mb-4">
+              <label class="form-label p-text"> Full Name </label>
+
+              <input
+                type="text"
+                class="form-control custom-input"
+                placeholder="Enter your name"
+                required
+              />
+            </div>
+
+            <!-- Email -->
+
+            <div class="mb-4">
+              <label class="form-label p-text"> Email Address </label>
+
+              <input
+                type="email"
+                class="form-control custom-input"
+                placeholder="Enter your email"
+                required
+              />
+            </div>
+
+            <!-- Message -->
+
+            <div class="mb-4">
+              <label class="form-label p-text"> Message </label>
+
+              <textarea
+                class="form-control custom-input"
+                rows="6"
+                placeholder="Write your message here..."
+                required
+              ></textarea>
+            </div>
+
+            <!-- Button -->
+
+            <div class="text-center">
+              <button type="submit" class="btn btn-1 px-5 py-2">
+                <div class="nav-link">Send Message</div>
+              </button>
+            </div>
+          </form>
+
+          <!-- Success Message -->
+
+          <p id="successMessage" class="p-text text-center mt-4 d-none">
+            Message sent successfully.
+          </p>
+        </div>
+      </div>
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>
